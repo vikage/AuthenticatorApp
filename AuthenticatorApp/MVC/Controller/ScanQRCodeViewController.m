@@ -30,13 +30,6 @@
     previewLayer.frame = self.view.bounds;
 }
 
--(void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-    
-    [self.captureSession startRunning];
-}
-
 -(void)viewDidDisappear:(BOOL)animated
 {
     [super viewDidDisappear:animated];
@@ -68,6 +61,7 @@
     
     qrCodeScanOutput.metadataObjectTypes = @[AVMetadataObjectTypeQRCode];
     [qrCodeScanOutput setMetadataObjectsDelegate:self queue:dispatch_get_main_queue()];
+    [self.captureSession startRunning];
 }
 
 
