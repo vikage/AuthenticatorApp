@@ -1,0 +1,11 @@
+//
+//  Prefix-header.pch
+//  AuthenticatorApp
+//
+//  Created by fuxsociety on 7/1/18.
+//  Copyright © 2018 fuxsociety. All rights reserved.
+//
+
+#import "OTPToken.h"
+#import "Utils.h"
+#import <SVProgressHUD/SVProgressHUD.h>

@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ListAccountViewController.h"
+#import "BaseNavigationViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,8 +17,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    
+    ListAccountViewController *rootVC = [[ListAccountViewController alloc] init];
+    BaseNavigationViewController *rootNavi = [[BaseNavigationViewController alloc] initWithRootViewController:rootVC];
+    rootNavi.navigationBar.hidden = YES;
+    self.window.rootViewController = rootNavi;
+    [self.window makeKeyAndVisible];
+    
+    [self config];
+    
     return YES;
+}
+
+-(void) config
+{
+    [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
+    [SVProgressHUD setMinimumDismissTimeInterval:1];
 }
 
 

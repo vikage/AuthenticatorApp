@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ProgressRingView.h
 //  AuthenticatorApp
 //
 //  Created by fuxsociety on 7/1/18.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
-
+@interface ProgressRingView : UIView
+@property (nonatomic) CGFloat progress;
 @end
 
+NS_ASSUME_NONNULL_END

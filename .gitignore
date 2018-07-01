@@ -1,0 +1,5 @@
+Pods/
+*.DS_Store
+AuthenticatorApp.xcworkspace/xcuserdata/
+AuthenticatorApp.xcodeproj/xcuserdata/
+Podfile.lock

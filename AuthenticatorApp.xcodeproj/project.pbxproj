@@ -8,24 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		046E1AC620E8A00D002FB673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E1AC520E8A00D002FB673 /* AppDelegate.m */; };
-		046E1AC920E8A00D002FB673 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E1AC820E8A00D002FB673 /* ViewController.m */; };
-		046E1ACC20E8A00D002FB673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E1ACA20E8A00D002FB673 /* Main.storyboard */; };
 		046E1ACE20E8A00F002FB673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046E1ACD20E8A00F002FB673 /* Assets.xcassets */; };
 		046E1AD120E8A00F002FB673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046E1ACF20E8A00F002FB673 /* LaunchScreen.storyboard */; };
 		046E1AD420E8A00F002FB673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046E1AD320E8A00F002FB673 /* main.m */; };
+		048A907C20E8B0D700B33557 /* OTPToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 048A907B20E8B0D700B33557 /* OTPToken.m */; };
+		04B66A9020E8BA1000E59DE1 /* AccountPasswordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B66A8E20E8BA1000E59DE1 /* AccountPasswordCell.m */; };
+		04B66A9120E8BA1000E59DE1 /* AccountPasswordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B66A8F20E8BA1000E59DE1 /* AccountPasswordCell.xib */; };
+		04CF559220E8B18500B37A22 /* ListAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF559020E8B18500B37A22 /* ListAccountViewController.m */; };
+		04CF559320E8B18500B37A22 /* ListAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CF559120E8B18500B37A22 /* ListAccountViewController.xib */; };
+		04CF559720E8B19100B37A22 /* ScanQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF559520E8B19100B37A22 /* ScanQRCodeViewController.m */; };
+		04CF559820E8B19100B37A22 /* ScanQRCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CF559620E8B19100B37A22 /* ScanQRCodeViewController.xib */; };
+		04CF559F20E8B1F900B37A22 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF559E20E8B1F900B37A22 /* BaseViewController.m */; };
+		04CF55A220E8B20900B37A22 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF55A120E8B20900B37A22 /* BaseNavigationViewController.m */; };
+		04E1CC0A20E8C4E0004105DE /* ProgressRingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E1CC0920E8C4E0004105DE /* ProgressRingView.m */; };
+		04E1CC0E20E8C567004105DE /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E1CC0D20E8C567004105DE /* Utils.m */; };
+		7C5774B1F0530A888429BE3F /* Pods_AuthenticatorApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AB9A3CB9BB9C42803C8868 /* Pods_AuthenticatorApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		046E1AC120E8A00C002FB673 /* AuthenticatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthenticatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		046E1AC420E8A00C002FB673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		046E1AC520E8A00D002FB673 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		046E1AC720E8A00D002FB673 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		046E1AC820E8A00D002FB673 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		046E1ACB20E8A00D002FB673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		046E1ACD20E8A00F002FB673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046E1AD020E8A00F002FB673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046E1AD220E8A00F002FB673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		046E1AD320E8A00F002FB673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		048A907A20E8B0D700B33557 /* OTPToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OTPToken.h; sourceTree = "<group>"; };
+		048A907B20E8B0D700B33557 /* OTPToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OTPToken.m; sourceTree = "<group>"; };
+		04B66A8D20E8BA1000E59DE1 /* AccountPasswordCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountPasswordCell.h; sourceTree = "<group>"; };
+		04B66A8E20E8BA1000E59DE1 /* AccountPasswordCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountPasswordCell.m; sourceTree = "<group>"; };
+		04B66A8F20E8BA1000E59DE1 /* AccountPasswordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountPasswordCell.xib; sourceTree = "<group>"; };
+		04CF558F20E8B18500B37A22 /* ListAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListAccountViewController.h; sourceTree = "<group>"; };
+		04CF559020E8B18500B37A22 /* ListAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListAccountViewController.m; sourceTree = "<group>"; };
+		04CF559120E8B18500B37A22 /* ListAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListAccountViewController.xib; sourceTree = "<group>"; };
+		04CF559420E8B19100B37A22 /* ScanQRCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanQRCodeViewController.h; sourceTree = "<group>"; };
+		04CF559520E8B19100B37A22 /* ScanQRCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanQRCodeViewController.m; sourceTree = "<group>"; };
+		04CF559620E8B19100B37A22 /* ScanQRCodeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScanQRCodeViewController.xib; sourceTree = "<group>"; };
+		04CF559D20E8B1F900B37A22 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		04CF559E20E8B1F900B37A22 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		04CF55A020E8B20900B37A22 /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		04CF55A120E8B20900B37A22 /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		04E1CC0820E8C4E0004105DE /* ProgressRingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressRingView.h; sourceTree = "<group>"; };
+		04E1CC0920E8C4E0004105DE /* ProgressRingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressRingView.m; sourceTree = "<group>"; };
+		04E1CC0C20E8C567004105DE /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		04E1CC0D20E8C567004105DE /* Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		04E1CC0F20E8C593004105DE /* Prefix-header.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Prefix-header.pch"; sourceTree = "<group>"; };
+		75AB9A3CB9BB9C42803C8868 /* Pods_AuthenticatorApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AuthenticatorApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFEEA59396D2760241F39ED /* Pods-AuthenticatorApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthenticatorApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuthenticatorApp/Pods-AuthenticatorApp.debug.xcconfig"; sourceTree = "<group>"; };
+		84376B5DF15052B44BCDB795 /* Pods-AuthenticatorApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuthenticatorApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuthenticatorApp/Pods-AuthenticatorApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5774B1F0530A888429BE3F /* Pods_AuthenticatorApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +75,8 @@
 			children = (
 				046E1AC320E8A00C002FB673 /* AuthenticatorApp */,
 				046E1AC220E8A00C002FB673 /* Products */,
+				F41C82F6CAE904B96123C7EC /* Pods */,
+				2B938F20E71A9D30DECC1C54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +91,107 @@
 		046E1AC320E8A00C002FB673 /* AuthenticatorApp */ = {
 			isa = PBXGroup;
 			children = (
+				04E1CC0B20E8C55C004105DE /* Utils */,
+				04E1CC0420E8C375004105DE /* Application */,
+				04CF559920E8B1DD00B37A22 /* MVC */,
+			);
+			path = AuthenticatorApp;
+			sourceTree = "<group>";
+		};
+		04B66A8C20E8B9FE00E59DE1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04B66A8D20E8BA1000E59DE1 /* AccountPasswordCell.h */,
+				04B66A8E20E8BA1000E59DE1 /* AccountPasswordCell.m */,
+				04B66A8F20E8BA1000E59DE1 /* AccountPasswordCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		04CF559920E8B1DD00B37A22 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				04CF559C20E8B1EC00B37A22 /* Controller */,
+				04CF559B20E8B1E800B37A22 /* View */,
+				04CF559A20E8B1E400B37A22 /* Model */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		04CF559A20E8B1E400B37A22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				048A907A20E8B0D700B33557 /* OTPToken.h */,
+				048A907B20E8B0D700B33557 /* OTPToken.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04CF559B20E8B1E800B37A22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04B66A8C20E8B9FE00E59DE1 /* Cell */,
+				04E1CC0820E8C4E0004105DE /* ProgressRingView.h */,
+				04E1CC0920E8C4E0004105DE /* ProgressRingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04CF559C20E8B1EC00B37A22 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04CF558F20E8B18500B37A22 /* ListAccountViewController.h */,
+				04CF559020E8B18500B37A22 /* ListAccountViewController.m */,
+				04CF559120E8B18500B37A22 /* ListAccountViewController.xib */,
+				04CF559420E8B19100B37A22 /* ScanQRCodeViewController.h */,
+				04CF559520E8B19100B37A22 /* ScanQRCodeViewController.m */,
+				04CF559620E8B19100B37A22 /* ScanQRCodeViewController.xib */,
+				04CF559D20E8B1F900B37A22 /* BaseViewController.h */,
+				04CF559E20E8B1F900B37A22 /* BaseViewController.m */,
+				04CF55A020E8B20900B37A22 /* BaseNavigationViewController.h */,
+				04CF55A120E8B20900B37A22 /* BaseNavigationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04E1CC0420E8C375004105DE /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				046E1AC420E8A00C002FB673 /* AppDelegate.h */,
 				046E1AC520E8A00D002FB673 /* AppDelegate.m */,
-				046E1AC720E8A00D002FB673 /* ViewController.h */,
-				046E1AC820E8A00D002FB673 /* ViewController.m */,
-				046E1ACA20E8A00D002FB673 /* Main.storyboard */,
 				046E1ACD20E8A00F002FB673 /* Assets.xcassets */,
 				046E1ACF20E8A00F002FB673 /* LaunchScreen.storyboard */,
 				046E1AD220E8A00F002FB673 /* Info.plist */,
 				046E1AD320E8A00F002FB673 /* main.m */,
+				04E1CC0F20E8C593004105DE /* Prefix-header.pch */,
 			);
-			path = AuthenticatorApp;
+			path = Application;
+			sourceTree = "<group>";
+		};
+		04E1CC0B20E8C55C004105DE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04E1CC0C20E8C567004105DE /* Utils.h */,
+				04E1CC0D20E8C567004105DE /* Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2B938F20E71A9D30DECC1C54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75AB9A3CB9BB9C42803C8868 /* Pods_AuthenticatorApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F41C82F6CAE904B96123C7EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BFEEA59396D2760241F39ED /* Pods-AuthenticatorApp.debug.xcconfig */,
+				84376B5DF15052B44BCDB795 /* Pods-AuthenticatorApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 046E1AD720E8A00F002FB673 /* Build configuration list for PBXNativeTarget "AuthenticatorApp" */;
 			buildPhases = (
+				DE19DB14988A4B5960BE6763 /* [CP] Check Pods Manifest.lock */,
 				046E1ABD20E8A00C002FB673 /* Sources */,
 				046E1ABE20E8A00C002FB673 /* Frameworks */,
 				046E1ABF20E8A00C002FB673 /* Resources */,
+				A0FFCCD37F34B49260F3ADE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,36 +253,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B66A9120E8BA1000E59DE1 /* AccountPasswordCell.xib in Resources */,
 				046E1AD120E8A00F002FB673 /* LaunchScreen.storyboard in Resources */,
 				046E1ACE20E8A00F002FB673 /* Assets.xcassets in Resources */,
-				046E1ACC20E8A00D002FB673 /* Main.storyboard in Resources */,
+				04CF559820E8B19100B37A22 /* ScanQRCodeViewController.xib in Resources */,
+				04CF559320E8B18500B37A22 /* ListAccountViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0FFCCD37F34B49260F3ADE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AuthenticatorApp/Pods-AuthenticatorApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Base32/Base32.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Base32.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AuthenticatorApp/Pods-AuthenticatorApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE19DB14988A4B5960BE6763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AuthenticatorApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		046E1ABD20E8A00C002FB673 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046E1AC920E8A00D002FB673 /* ViewController.m in Sources */,
+				04B66A9020E8BA1000E59DE1 /* AccountPasswordCell.m in Sources */,
+				048A907C20E8B0D700B33557 /* OTPToken.m in Sources */,
+				04CF559F20E8B1F900B37A22 /* BaseViewController.m in Sources */,
+				04E1CC0E20E8C567004105DE /* Utils.m in Sources */,
+				04CF55A220E8B20900B37A22 /* BaseNavigationViewController.m in Sources */,
+				04E1CC0A20E8C4E0004105DE /* ProgressRingView.m in Sources */,
 				046E1AD420E8A00F002FB673 /* main.m in Sources */,
 				046E1AC620E8A00D002FB673 /* AppDelegate.m in Sources */,
+				04CF559220E8B18500B37A22 /* ListAccountViewController.m in Sources */,
+				04CF559720E8B19100B37A22 /* ScanQRCodeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		046E1ACA20E8A00D002FB673 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				046E1ACB20E8A00D002FB673 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		046E1ACF20E8A00F002FB673 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,32 +448,45 @@
 		};
 		046E1AD820E8A00F002FB673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFEEA59396D2760241F39ED /* Pods-AuthenticatorApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AuthenticatorApp/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = DNT8TXTRF7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AuthenticatorApp/Application/Prefix-header.pch";
+				INFOPLIST_FILE = AuthenticatorApp/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thanhdev.AuthenticatorApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fux.AuthenticatorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c3ba1133-4cbc-498e-b225-9f0b36fd2317";
+				PROVISIONING_PROFILE_SPECIFIER = "Fux wilcard";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		046E1AD920E8A00F002FB673 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84376B5DF15052B44BCDB795 /* Pods-AuthenticatorApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = AuthenticatorApp/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AuthenticatorApp/Application/Prefix-header.pch";
+				INFOPLIST_FILE = AuthenticatorApp/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thanhdev.AuthenticatorApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fux.AuthenticatorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
