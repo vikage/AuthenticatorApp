@@ -246,7 +246,6 @@
         
         UIBlurEffect *blueEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
         blurEffectView = [[UIVisualEffectView alloc] initWithEffect:blueEffect];
-        blurEffectView.alpha = 0.98;
         [self.view addSubview:blurEffectView];
         
         blurEffectView.translatesAutoresizingMaskIntoConstraints = NO;
