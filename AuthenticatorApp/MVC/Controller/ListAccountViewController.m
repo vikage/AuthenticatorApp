@@ -231,6 +231,7 @@
 
 -(void) applicationWillEnterForegroundNotification:(NSNotification *)notification
 {
+    [self.listAccountTableView reloadData];
     [self showAuthenticate];
 }
 
